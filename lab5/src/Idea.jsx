@@ -1,0 +1,35 @@
+import Nav from './Nav'
+import './Idea.css'
+
+function Idea() {
+  return (
+	<>
+	<Nav/>
+	<h3> Idea of Web Application </h3>
+    <section>
+    <h4>Definition</h4>
+    <p>This web application will be static web page that will teach the general public about sorting food waste. Each page will include text, images, videos, and quizzes. </p>
+    </section>
+    
+    <section>
+    <h4>Web Application Features</h4>
+      <li>Navigation Bar</li>
+      <li>Home Page</li>
+      <li>Content Pages </li>
+      <li>Images</li>
+      <li>Videos</li>
+      <li>Quizzes</li>
+    </section>
+
+    <section>
+    <h4>Web Application Operation</h4>
+    <p>Upon visiting the web application, the user will first land on a home page that describes what waste sorting is. They will then navigate to another page, which will discuss the benefits of waste sorting and the dangers of not doing so correctly. The third page will list categories of waste and which items fall under each category. Before exiting the application, the user will take an assessment to gauge whether they have retained the information they have learned.</p>
+    </section>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XP0ZNyv8TXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	</>
+  )
+}
+
+export default Idea

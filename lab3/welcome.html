@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Welcome </title>
+	<style>
+
+		h1 {
+			color: darkgreen;
+			text-align: center;
+		}
+
+		h2 {
+			text-align: center;
+		}
+
+		ul {
+		  list-style-type: none;
+		  margin: 50;
+		  padding: 0;
+		  overflow: hidden;
+		}
+
+		li {
+			float: left;
+		}
+
+		li a {
+		  display: block;
+		  padding: 10px;
+		  background-color: #dddddd;
+		}
+
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		form {
+  			border: 3px solid #f1f1f1;
+		}
+
+		input[type=text], input[type=password] {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-flex;
+			border: 1px solid #ccc;
+			box-sizing: border-box;
+		}
+
+		button[type=submit] {
+			background-color: #04AA6D;
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			cursor: pointer;
+		}
+
+		.cancel {
+			background-color: #f44336;
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			cursor: pointer;
+		}
+
+		.container {
+			padding: 16px;
+		}
+
+	</style>
+
+</head>
+<body>
+	<h1> Know Your Waste </h1>
+	<ul>
+		<li><a href="welcome.html">Home</a></li>
+		<li><a href="idea.html">Idea</a></li>
+		<li><a href="infopage.html">Info Page</a></li>
+		<li><a href="faq.html">FAQ</a></li>
+		<li><a href="contact.html">Contact</a></li>
+</ul>
+
+	<form>
+		<div class="container">
+			<h2>Welcome</h2>
+		    <label for="uname"><b>Username</b></label>
+		    <input type="text" placeholder="Enter Username" name="uname" required>
+
+		    <label for="psw"><b>Password</b></label>
+		    <input type="password" placeholder="Enter Password" name="psw" required>
+
+		    <button type="submit" onclick="">Login</button>
+		    <label>
+		      <input type="checkbox" checked="checked" name="remember"> Remember me
+		    </label>
+  		</div>
+
+  		<div class="container" style="background-color:#f1f1f1">
+	      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancel">Cancel</button>
+    	</div>
+
+  	</form>
+
+</body>
+</html>
